@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema do trio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="https://cti.feb.unesp.br/Home/instituicao/somente-logo.png" alt="Logo CTI" class="logo">
+            <h1 class="site-title">Sistema do trio</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logo_Unesp.svg/2560px-Logo_Unesp.svg.png" alt="Logo Unesp" class="logo">
+        </header>
+
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="https://www.feb.unesp.br/" target="_blank">Feb Unesp</a></li>
+                <li><a href="http://200.145.153.1/nsac/" target="_blank">Nsac</a></li>
+                <li><a href="https://cti.feb.unesp.br/" target="_blank">Unesp</a></li>
+                <li><a href="https://www.fc.unesp.br/#!/biologia" target="_blank">DCB Unesp</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <aside class="left-side">
+                <div class="aside-img-wrapper">
+                    <img src="img/fachada-1.jpeg" alt="Imagem lateral" class="aside-img">
+                </div>
+            </aside>
+
+            <main class="main-content">
+                <h2>Pré-matrícula de alunos</h2>
+                <form action="#" method="post" class="form">
+                    <label for="nome">Nome do aluno:</label>
+                    <input type="text" id="nome" name="nome">
+
+                    <fieldset>
+                        <legend>Informações de Contato</legend>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Dados Acadêmicos</legend>
+                        <label for="curso">Selecione o curso:</label>
+                        <select id="curso" name="curso">
+                            <option value="info">Informática</option>
+                            <option value="adm">Administração</option>
+                            <option value="agro">Agropecuária</option>
+                        </select>
+
+                        <p>Turno:</p>
+                        <input type="radio" id="manha" name="turno" value="manha">
+                        <label for="manha">Manhã</label>
+                        <input type="radio" id="tarde" name="turno" value="tarde">
+                        <label for="tarde">Tarde</label>
+
+                        <p>Disciplinas optativas:</p>
+                        <input type="checkbox" id="disc1" name="disciplinas" value="matematica">
+                        <label for="disc1">Matemática</label>
+                        <input type="checkbox" id="disc2" name="disciplinas" value="fisica">
+                        <label for="disc2">Física</label>
+                        <input type="checkbox" id="disc3" name="disciplinas" value="quimica">
+                        <label for="disc3">Química</label>
+                        <input type="checkbox" id="disc4" name="disciplinas" value="historia">
+                        <label for="disc4">História</label>
+                        <input type="checkbox" id="disc5" name="disciplinas" value="ingles">
+                        <label for="disc5">Inglês</label>
+                    </fieldset>
+
+                    <label for="obs">Observações adicionais:</label>
+                    <textarea id="obs" name="obs"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </main>
+
+            <aside class="right-side">
+                <div class="aside-img-wrapper">
+                    <img src="img/download.jpeg" alt="Imagem lateral" class="aside-img">
+                </div>
+            </aside>
+        </div>
+
+        <footer class="footer">
+            &copy; 2025 - Todos os direitos reservados - Desenvolvido por Kayky, Eduardo e Caio
+        </footer>
+    </div>
+</body>
+</html>
